@@ -1,0 +1,21 @@
+.mainCourse{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+}
+.title{
+    font-size: 30px;
+    border: 2px solid white;
+    font-family: fantasy;
+}
+ul{
+    list-style-type: none;
+}
+@media screen and (max-width:770px) {
+    .mainCourse{
+      display: grid;
+      grid-template-columns:  repeat(1,1fr);
+      grid-gap: 1rem;
+    }
+    
+  }

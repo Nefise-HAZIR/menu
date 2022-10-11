@@ -1,0 +1,23 @@
+.drinks{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.hot{
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.image{
+  height: 275px;
+}
+
+@media screen and (max-width:770px) {
+    .drinks{
+      display: grid;
+      grid-template-columns:  repeat(1,1fr);
+      grid-gap: 1rem;
+    }
+    
+  }
